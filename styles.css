@@ -5,7 +5,7 @@
     transition: all 250ms ease-in-out;
 }
 
-body{
+body, .home, .product-list{
     overflow-x: hidden;
 }
 
@@ -161,6 +161,7 @@ nav .nav .img-container img{
     height: 450px;
     display: flex;
     align-items: center;    
+    overflow-y: hidden !important;
 }
 
 .product-list .row{
@@ -483,7 +484,7 @@ footer{
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 1199px){
     .list-container{
         display: none;
     }
@@ -638,5 +639,19 @@ footer{
     .row-links img:not(:last-of-type){
         padding-right: 10px;
         height: 35px;
+    }
+}
+
+@media (min-width: 280px) and (max-width: 280px) {
+    body, .home, .product-list{
+        width: 100vw;
+    }
+
+    .nav, nav{
+        justify-content: left !important;
+    }
+
+    .nav .img-container{
+        width: 200px;
     }
 }
