@@ -304,7 +304,7 @@ footer{
     }
     
     .img-container img{
-        width: 85%;
+        width: 80%;
     }
     
     .ham-menu{
@@ -337,5 +337,10 @@ footer{
 
     .product-head{
         padding-left: 20px;
+    }
+
+    .nav .img-container img{
+        position: relative;
+        left: -30px;
     }
 }

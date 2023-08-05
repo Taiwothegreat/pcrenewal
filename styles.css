@@ -85,6 +85,7 @@ nav .nav .img-container img{
     justify-content: center;
     align-items: center;
     width: fit-content;
+    position: relative;
 }
 
 .home{
@@ -494,7 +495,7 @@ footer{
     }
 
     nav .img-container img{
-        width: 90% !important;
+        width: 80% !important;
     }
 
     .home-container{
@@ -639,6 +640,11 @@ footer{
     .row-links img:not(:last-of-type){
         padding-right: 10px;
         height: 35px;
+    }
+    
+    .nav .img-container img{
+        position: relative;
+        left: -30px;
     }
 }
 

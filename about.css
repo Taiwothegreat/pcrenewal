@@ -259,7 +259,7 @@ footer{
     }
     
     .img-container img{
-        width: 85%;
+        width: 80%;
     }
     
     .ham-menu{
@@ -309,5 +309,10 @@ footer{
 
     .about-text p{
         text-align: justify;
+    }
+
+    .nav .img-container img{
+        position: relative;
+        left: -30px;
     }
 }
