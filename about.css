@@ -14,9 +14,14 @@
     flex-direction: row;
     height: 120px;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 20px;
     position: relative;
     width: 100%;
+}
+
+.nav .img-container{
+    justify-content: flex-start !important;
 }
 
 nav{
