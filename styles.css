@@ -13,7 +13,8 @@ body, .home, .product-list{
     width: 100% ;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 20px;
     height: 120px;
     position: relative;
 }
@@ -82,7 +83,7 @@ nav .nav .img-container img{
 .img-container{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     width: fit-content;
     position: relative;
